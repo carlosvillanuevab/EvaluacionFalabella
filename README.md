@@ -37,7 +37,7 @@ You can run tests by executing `node_modules/cucumber/bin/cucumber-js`
 
 
 
-# EvaluacionFalabella
+# Evaluación Falabella
 La página web a utilizar será Google y Tottus
 
 Se debe utilizar [Cucumber, TestCafe y Javascript]. 
@@ -45,13 +45,13 @@ No se debe solicitar ingresos de datos por parte de usuarios, todo debe ser auto
 
 Automatizar la consulta de sucursales.
 
-En google buscar la palabra "tottus sucursales"
-del listado que aparece, presionar en la "primera sucursal" de la lista
-posterior presionar el botón "Sitio web"
-Una vez en la página de tottus, buscar la opción "Recetas" 
-Seleccionar "Dificultad alta"
-Buscar "corona de Rollitos de canela"
-validar que la receta tenga "canela" y "azúcar rubia".
+* En google buscar la palabra "tottus sucursales"
+* del listado que aparece, presionar en la "primera sucursal" de la lista
+* posterior presionar el botón "Sitio web"
+* Una vez en la página de tottus, buscar la opción "Recetas" 
+* Seleccionar "Dificultad alta"
+* Buscar "corona de Rollitos de canela"
+* validar que la receta tenga "canela" y "azúcar rubia".
 
 Se deben implementar las configuraciones necesarias para que el proyecto soporte Chrome e Internet Explorer como navegadores. 
 
