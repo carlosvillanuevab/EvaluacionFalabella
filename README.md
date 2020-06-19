@@ -38,4 +38,22 @@ You can run tests by executing `node_modules/cucumber/bin/cucumber-js`
 
 
 # EvaluacionFalabella
+La página web a utilizar será Google y Tottus
 
+Se debe utilizar [Cucumber, TestCafe y Javascript]. No se debe solicitar ingresos de datos por parte de usuarios, todo debe ser automático. El proyecto debe ser entregado en Github.
+
+Se deben automatizar la consulta de sucursales.
+
+En google buscar la palabra "tottus sucursales" y del listado que aparece, presionar en la primera sucursal de la lista y posterior presionar el botón Sitio web
+
+Una vez en la página de tottus, buscar la opción "Recetas" 
+Seleccionar Dificultad alta
+Buscar corona de Rollitos de canela
+
+Y validar que la receta tenga canela y azúcar rubia.
+
+Se deben implementar las configuraciones necesarias para que el proyecto soporte Chrome e Internet Explorer como navegadores. 
+
+Favor subir tu trabajo en un repositorio de GitHub para que podamos revisarlo desde ahí. El día de entrega es el día Martes 23/06/2020 a las 18 horas. 
+
+No dudes en contactarnos ante cualquier duda, y confirmar tu participación. 
