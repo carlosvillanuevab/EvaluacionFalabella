@@ -16,3 +16,6 @@ reports/*
 
 #Package-lock
 package-lock.json
+
+#other
+LICENSE
