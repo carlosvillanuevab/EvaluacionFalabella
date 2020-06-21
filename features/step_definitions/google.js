@@ -8,10 +8,8 @@ Given('I am open Google\'s search page', async function () {
 });
 
 When('I am typing my search request {string} on Google', async function (text) {
-    console.log('sjdhfskdjhf' + tottusPage.tottus.searchWord())
     await this.addScreenshotToReport();
     await testController.typeText(tottusPage.tottus.searchWord(), text);
-
 });
 
 When('I press the {string} key on Google', async function (text) {
@@ -37,11 +35,12 @@ When('I select option {string}', async function (text) {
 When('I search {string}', async function (text) {
     await testController.click(tottusPage.tottus.rollitos().withText(text));
 });
-/*
+
 Then('I should see that a result is {string}', async function (text) {
-    await testController.click(tottusPage.tottus
+    // por alguna razon no logre que me tomara el DIV de la lista de ingredientes asi que tome uno externo
+    await testController.expect(tottusPage.tottus.ingredients().innerText).contains('CORONA DE ROLLITOS DE CANELA',text);
 });
 
-When('I should see that a result is {string}', async function (text) {
-
-}); */
+When('I should see {string} too', async function (text) {
+    await testController.expect(tottusPage.tottus.ingredients().innerText).contains('CORONA DE ROLLITOS DE CANELA',text);
+}); 

@@ -12,6 +12,6 @@ Feature: Searching for Recetas by tottuson google
     And I return to "Home" to find the main menu
     And I select option "ALTA"
     And I search "CORONA DE ROLLITOS DE CANELA"
-    Then I should see that a result is "canela"
-    And I should see that a result is "azúcar rubia"
+    Then I should see that a result is "azúcar rubia"
+    And I should see "canela" too
 

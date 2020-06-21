@@ -31,14 +31,8 @@ exports.tottus = {
         return select('#divRecipes').find('h3');
     },
 
-    /* 
-     
-     .drag(Selector('main').find('p').withText('– 125g azúcar rubia'), 146, 23, {
-         offsetX: 14,
-         offsetY: 12 
-     });*/
-
-
-
-
+    ingredients: function () {
+        return select('#hero').find('p');
+    },
+    
 };
